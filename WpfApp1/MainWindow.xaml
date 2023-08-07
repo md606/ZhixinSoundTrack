@@ -6,8 +6,8 @@
         xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="执信音乐盒 23w33a"
-    Width="500" Height="300">
+        Title="执信音乐盒"
+    Width="350" Height="200">
     <Grid Background="#f5f5f5">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -21,10 +21,10 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <!--<Button Click="TestButton_Click"  Grid.Row="1" x:Name="testButton" FontSize="32" Content="Test" Margin="5"/>-->
-        <TextBlock x:Name="nowTime" Grid.Column="1" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Text="当前时间: 正在获取中"/>
-        <TextBlock Grid.Row="1" x:Name="nextRing" Grid.Column="1" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Text="下个铃声: 正在获取中"/>
-        <TextBlock Grid.Row="2" x:Name="nextTime" Grid.Column="1" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Text="响铃时间: 正在获取中"/>
-        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Text="执德至弘 信道至笃"/>
+        <TextBlock x:Name="nowTime" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="当前时间: 正在获取中"/>
+        <TextBlock Grid.Row="1" x:Name="nextRing" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="下个铃声: 正在获取中"/>
+        <TextBlock Grid.Row="2" x:Name="nextTime" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="响铃时间: 正在获取中"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="26" HorizontalAlignment="Center" VerticalAlignment="Center" Text="执德至弘 信道至笃"/>
         <Image Grid.Row="3" Source="/assets/zhxhs_logo.png" ></Image>
     </Grid>
 </Window>

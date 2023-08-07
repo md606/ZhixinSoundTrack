@@ -13,8 +13,8 @@ namespace WpfApp1
         DispatcherTimer timer = new DispatcherTimer();
         MediaPlayer player = new MediaPlayer();
         int NextHour, NextMinute;
-        string NextMusic, NextMusicString;
-        bool IsChecked=false;
+        string NextMusic, NextMusicString, NextHourString, NextMinuteString;
+        bool IsChecked = false;
 
         public MainWindow()
         {
@@ -38,11 +38,15 @@ namespace WpfApp1
                 else if (NextMusic == "PaoCaoMusic.mp3") NextMusicString = "跑操";
                 else if (NextMusic == "SleepMusic.mp3") NextMusicString = "午休铃";
                 else NextMusicString = "起床铃";
+                if (NextHour < 10) NextHourString = $"0{NextHour}";
+                else NextHourString = NextHour.ToString();
+                if (NextMinute < 10) NextMinuteString = $"0{NextMinute}";
+                else NextMinuteString = NextMinute.ToString();
                 nextRing.Text = $"下个铃声: {NextMusicString}";
-                nextTime.Text = $"响铃时间: {NextHour}:{NextMinute}";
-                Console.WriteLine(NextHour);
-                Console.WriteLine(NextMinute);
-                Console.WriteLine(NextMusic);
+                nextTime.Text = $"响铃时间: {NextHourString}:{NextMinuteString}";
+                //Console.WriteLine(NextHour);
+                //Console.WriteLine(NextMinute);
+                //Console.WriteLine(NextMusic);
                 IsChecked = true;
             }
             if (DateTime.Now.Hour == NextHour && DateTime.Now.Minute == NextMinute)

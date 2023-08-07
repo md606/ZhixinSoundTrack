@@ -240,7 +240,7 @@ namespace WpfApp1
                     if (NowMinute < 8)
                     {
                         NextHour = 16;
-                        NextMinute = 8;
+                        NextMinute = 08;
                         NextMusic = Pre;
                     }
                     else if (NowMinute < 10)
