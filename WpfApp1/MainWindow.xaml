@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="执信音乐盒 23w33a"
     Width="500" Height="300">
-    <Grid Background="#dcdbdb">
+    <Grid Background="#f5f5f5">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>

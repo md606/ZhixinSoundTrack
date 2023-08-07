@@ -47,6 +47,7 @@ namespace WpfApp1
             }
             if (DateTime.Now.Hour == NextHour && DateTime.Now.Minute == NextMinute)
             {
+                IsChecked = false;
                 player.Open(new Uri($"./assets/{NextMusic}", UriKind.Relative));
                 player.Play();
             }

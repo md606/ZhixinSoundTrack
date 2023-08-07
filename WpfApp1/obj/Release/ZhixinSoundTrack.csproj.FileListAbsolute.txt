@@ -20,3 +20,4 @@ D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack.csproj.GenerateReso
 D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack.csproj.CoreCompileInputs.cache
 D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack.exe
 D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack.pdb
+D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack.csproj.AssemblyReference.cache
