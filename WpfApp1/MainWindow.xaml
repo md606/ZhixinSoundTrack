@@ -3,11 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
-        xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
+        ResizeMode="CanMinimize"
         Title="执信音乐盒"
-    Width="350" Height="200">
+        Width="350" Height="180">
     <Grid Background="#f5f5f5">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -17,14 +16,24 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="6*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <!--<Button Click="TestButton_Click"  Grid.Row="1" x:Name="testButton" FontSize="32" Content="Test" Margin="5"/>-->
-        <TextBlock x:Name="nowTime" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="当前时间: 正在获取中"/>
+        <TextBlock Grid.Row="0" x:Name="nowTime" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="当前时间: 正在获取中"/>
         <TextBlock Grid.Row="1" x:Name="nextRing" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="下个铃声: 正在获取中"/>
         <TextBlock Grid.Row="2" x:Name="nextTime" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="响铃时间: 正在获取中"/>
-        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="26" HorizontalAlignment="Center" VerticalAlignment="Center" Text="执德至弘 信道至笃"/>
+        <TextBlock  Text=""/>
+        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Run Foreground="#4a0e68">执</Run>
+            <Run Foreground="#b62223">德</Run>
+            <Run Foreground="#69982d">至</Run>
+            <Run Foreground="#f16704">弘</Run>
+            <Run Foreground="#0075a5">信</Run>
+            <Run Foreground="#0b0045">道</Run>
+            <Run Foreground="#4a0e68">至</Run>
+            <Run Foreground="#b62223">笃</Run>
+        </TextBlock>
         <Image Grid.Row="3" Source="/assets/zhxhs_logo.png" ></Image>
+        <Image Grid.Row="3" Grid.Column="2" Source="/assets/zhxhs_logo.png" ></Image>
     </Grid>
 </Window>

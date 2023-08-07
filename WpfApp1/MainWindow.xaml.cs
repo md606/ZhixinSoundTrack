@@ -31,6 +31,8 @@ namespace WpfApp1
             if (!IsChecked)
             {
                 CheckNextMusic.Check(out NextHour, out NextMinute, out NextMusic);
+
+                // 判断下个铃声
                 if (NextMusic == "PrepareMusic.mp3") NextMusicString = "预备铃";
                 else if (NextMusic == "StartMusic.mp3") NextMusicString = "上课铃";
                 else if (NextMusic == "EndMusic.mp3") NextMusicString = "下课铃";
@@ -38,29 +40,27 @@ namespace WpfApp1
                 else if (NextMusic == "PaoCaoMusic.mp3") NextMusicString = "跑操";
                 else if (NextMusic == "SleepMusic.mp3") NextMusicString = "午休铃";
                 else NextMusicString = "起床铃";
+                nextRing.Text = $"下个铃声: {NextMusicString}";
+                // 判断响铃时间 - Hour
                 if (NextHour < 10) NextHourString = $"0{NextHour}";
                 else NextHourString = NextHour.ToString();
+                // 判断响铃时间 - Minute
                 if (NextMinute < 10) NextMinuteString = $"0{NextMinute}";
                 else NextMinuteString = NextMinute.ToString();
-                nextRing.Text = $"下个铃声: {NextMusicString}";
-                nextTime.Text = $"响铃时间: {NextHourString}:{NextMinuteString}";
-                //Console.WriteLine(NextHour);
-                //Console.WriteLine(NextMinute);
-                //Console.WriteLine(NextMusic);
-                IsChecked = true;
+                // 判断响铃时间 - 是否为次日
+                if (DateTime.Now.Hour > NextHour || (DateTime.Now.Hour == NextHour && DateTime.Now.Minute >= NextMinute))
+                    nextTime.Text = $"响铃时间: 次日{NextHourString}:{NextMinuteString}";
+                else
+                    nextTime.Text = $"响铃时间: {NextHourString}:{NextMinuteString}";
+
+                IsChecked = true; // 已更新
             }
             if (DateTime.Now.Hour == NextHour && DateTime.Now.Minute == NextMinute)
             {
-                IsChecked = false;
+                IsChecked = false; // 未更新
                 player.Open(new Uri($"./assets/{NextMusic}", UriKind.Relative));
-                player.Play();
+                player.Play(); // 播放mp3
             }
         }
-
-        //private void TestButton_Click(object sender, RoutedEventArgs e) // 测试按钮 勿删
-        //{
-        //    player.Open(new Uri("./assets/EndMusic.mp3", UriKind.Relative)); // 成功播放mp3 StartMusic设置为始终复制,内容
-        //    player.Play();
-        //}
     }
 }
