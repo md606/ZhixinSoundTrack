@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0219: 变量已被赋值，但从未使用过它的值
+dotnet_diagnostic.CS0219.severity = none

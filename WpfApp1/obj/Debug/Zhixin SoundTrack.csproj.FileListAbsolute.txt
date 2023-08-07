@@ -1,0 +1,25 @@
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\EndMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\PaoCaoMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\PrepareMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\SleepMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\StartMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\WakeMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\assets\YBJCMusic.mp3
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\Zhixin SoundTrack.exe.config
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\Zhixin SoundTrack.exe
+D:\source\repos\WpfApp1\WpfApp1\bin\Debug\Zhixin SoundTrack.pdb
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack_Content.g.cs
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack_MarkupCompile.cache
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack_MarkupCompile.lref
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack.g.resources
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\ZhixinSoundTrack.Properties.Resources.resources
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack.csproj.GenerateResource.cache
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack.csproj.CoreCompileInputs.cache
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack.exe
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\Zhixin SoundTrack.pdb
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\ZhixinSoundTrack_Content.g.cs
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\ZhixinSoundTrack_MarkupCompile.cache
+D:\source\repos\WpfApp1\WpfApp1\obj\Debug\ZhixinSoundTrack_MarkupCompile.lref
