@@ -23,15 +23,8 @@
         <TextBlock Grid.Row="1" x:Name="nextRing" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="下个铃声: 正在获取中"/>
         <TextBlock Grid.Row="2" x:Name="nextTime" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="响铃时间: 正在获取中"/>
         <TextBlock  Text=""/>
-        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Run Foreground="#4a0e68">执</Run>
-            <Run Foreground="#b62223">德</Run>
-            <Run Foreground="#69982d">至</Run>
-            <Run Foreground="#f16704">弘</Run>
-            <Run Foreground="#0075a5">信</Run>
-            <Run Foreground="#0b0045">道</Run>
-            <Run Foreground="#4a0e68">至</Run>
-            <Run Foreground="#b62223">笃</Run>
+        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Run Foreground="#37b24d">执德至弘 信道至笃</Run>
         </TextBlock>
         <Image Grid.Row="3" Source="/assets/zhxhs_logo.png" ></Image>
         <Image Grid.Row="3" Grid.Column="2" Source="/assets/zhxhs_logo.png" ></Image>

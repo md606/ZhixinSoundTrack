@@ -12,7 +12,7 @@
 
 ### 程序界面一览
 
-![image-20230807151058190](https://s3.bmp.ovh/imgs/2023/08/07/134365910b8da3ce.png)
+![image-20230808180342440](https://s3.bmp.ovh/imgs/2023/08/08/0e93134873f4c466.png)
 
 ### 注意事项
 
@@ -21,11 +21,19 @@
 ### 进阶操作
 
 assets内的mp3文件为各个铃声，可自行替换，注意替换后文件名需与原来相同
+
 以下是文件名与各个铃声的对照：
+
 PrepareMusic.mp3 =  预备铃
+
 StartMusic.mp3   =  上课铃
+
 EndMusic.mp3     =  下课铃
+
 YBJCMusic.mp3    =  眼保健操
+
 PaoCaoMusic.mp3  =  跑操
+
 SleepMusic.mp3   =  午休铃
+
 WakeMusic.mp3    =  起床铃

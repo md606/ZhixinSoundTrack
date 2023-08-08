@@ -2,7 +2,6 @@ D:\source\repos\WpfApp1\WpfApp1\obj\Release\MainWindow.g.cs
 D:\source\repos\WpfApp1\WpfApp1\obj\Release\App.g.cs
 D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack_Content.g.cs
 D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack_MarkupCompile.cache
-D:\source\repos\WpfApp1\WpfApp1\obj\Release\ZhixinSoundTrack_MarkupCompile.lref
 D:\source\repos\WpfApp1\WpfApp1\bin\Release\assets\EndMusic.mp3
 D:\source\repos\WpfApp1\WpfApp1\bin\Release\assets\PaoCaoMusic.mp3
 D:\source\repos\WpfApp1\WpfApp1\bin\Release\assets\PrepareMusic.mp3
