@@ -16,15 +16,15 @@ namespace WpfApp1
                 if (NowHour < 7)
                 {
                     NextHour = 7;
-                    NextMinute = 58;
+                    NextMinute = 55;
                     NextMusic = Pre;
                 }
                 else // NowHour == 7
                 {
-                    if (NowMinute < 58)
+                    if (NowMinute < 55)
                     {
                         NextHour = 7;
-                        NextMinute = 58;
+                        NextMinute = 55;
                         NextMusic = Pre;
                     }
                     else
@@ -173,7 +173,7 @@ namespace WpfApp1
                         else
                         {
                             NextHour = 13;
-                            NextMinute = 00;
+                            NextMinute = 10;
                             NextMusic = Sleep;
                         }
                     }
@@ -198,13 +198,13 @@ namespace WpfApp1
                     else if (NowMinute < 20)
                     {
                         NextHour = 14;
-                        NextMinute = 20;
+                        NextMinute = 10;
                         NextMusic = Start;
                     }
                     else
                     {
                         NextHour = 15;
-                        NextMinute = 00;
+                        NextMinute = 05;
                         NextMusic = End;
                     }
                 }
@@ -213,7 +213,7 @@ namespace WpfApp1
                     if (NowMinute < 1)
                     {
                         NextHour = 15;
-                        NextMinute = 01;
+                        NextMinute = 06;
                         NextMusic = YBJC;
                     }
                     else if (NowMinute < 18)
@@ -258,7 +258,7 @@ namespace WpfApp1
                     else
                     {
                         NextHour = 7;
-                        NextMinute = 58;
+                        NextMinute = 55;
                         NextMusic = Pre;
                     }
                 }
@@ -266,7 +266,7 @@ namespace WpfApp1
             else // NowHour >=17
             {
                 NextHour = 7;
-                NextMinute = 58;
+                NextMinute = 55;
                 NextMusic = Pre;
             }
         }
